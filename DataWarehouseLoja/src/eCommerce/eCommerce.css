@@ -1,0 +1,40 @@
+/* 
+    Document   : eCommerce
+    Created on : 18/11/2012, 17:26:57
+    Author     : Eduardo Luiz
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body {
+    background-color: #fafbff; 
+    font-family: "Segoe UI", Tahoma, Helvetica, Arial, Sans-Serif;
+}
+
+div.component {
+    width: 280px;
+    height: 320px;
+    -webkit-box-shadow: 0 1px 6px rgba(0,0,0,.4);
+    -moz-box-shadow: 0 1px 6px rgba(0,0,0,.4);
+    box-shadow: 0 1px 6px rgba(0,0,0,.4);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: #0096FF; font-weight: 500; font-style: normal;
+}
+
+h2 {
+    color: #6DB129; font-weight: 500; font-style: normal
+}
+
+.granLine {
+    padding-right: 300px;
+    border: 1px solid #989898;
+    margin: 10px 70px;
+}
